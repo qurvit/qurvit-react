@@ -1,10 +1,16 @@
 import React from 'react'
+import { Route, Routes } from 'react-router'
+import Layout from './Layout'
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div className='w-full flex justify-center items-center h-screen bg-green-400 text-amber-100 text-3xl'><h1>
-      Hello welcome to Qurvit!!!!!!!!!!!!
-      </h1></div>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+      <Route index element={<Home />} />
+      </Route>
+
+    </Routes>
   )
 }
 
