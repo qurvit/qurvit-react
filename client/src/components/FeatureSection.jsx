@@ -1,4 +1,4 @@
-import FeatureCard from '@/ui/FeatureCard';
+import FeatureCard from '../ui/FeatureCard';
 import {  FaSync } from 'react-icons/fa';
 
 

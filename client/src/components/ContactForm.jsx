@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import Input from './Input'; // Update path if needed
+import Input from '../ui/Input'
 
 const timeSlots = ['10:00 AM', '11:00 AM', '2:00 PM', '4:00 PM', '6:00 PM'];
 

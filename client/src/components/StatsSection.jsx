@@ -1,6 +1,6 @@
 "use client"
 import { motion } from 'framer-motion';
-import StatsCard from '@/ui/StatsCard';
+import StatsCard from '..//ui/StatsCard';
 
 const stats = [
   { label: 'Clients Served', target: 120 },

@@ -1,4 +1,4 @@
-import TestimonialCard from "@/ui/TestimonialCard";
+import TestimonialCard from "../ui/TestimonialCard"
 
 
 
